@@ -49,7 +49,7 @@
     "wait-on": "^3.0.1"
   },
   "peerDependencies": {
-    "react": "^16.4.2"
+    "react": "^16.6.1"
   },
   "main": "dist/react-universal-app.js",
   "umd:main": "dist/react-universal-app.umd.js",
