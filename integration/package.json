@@ -10,7 +10,7 @@
     "react-universal-app": "file:../",
     "apollo-cache-inmemory": "^1.2.10",
     "apollo-client": "^2.4.2",
-    "apollo-link-http": "^1.5.5",
+    "apollo-link-http": "^1.5.8",
     "express": "^4.16.3",
     "graphql": "^14.0.2",
     "graphql-tag": "^2.9.2",
