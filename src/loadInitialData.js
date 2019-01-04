@@ -5,7 +5,8 @@ const loadInitialData = async (url, routes) => {
 
   if (matchedRoutes.length <= 0) {
     throw new Error(
-      `No route was found for '${url}' given the regex '${routes[0]['path']}'`,
+      `No route was found for '${url}' given the regex 
+      '/${routes[0]['path']}/'`,
     );
   }
 
