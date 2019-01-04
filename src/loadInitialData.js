@@ -2,6 +2,7 @@ import { matchRoutes } from 'react-router-config';
 
 const loadInitialData = async (url, routes) => {
   const matchedRoutes = matchRoutes(routes, url);
+
   if (matchedRoutes.length <= 0) {
     throw new Error(
       `No route was found for '${url}' given the regex '${routes[0]['path']}'`,
